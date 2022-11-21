@@ -1,0 +1,514 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Start personal Normalizer */
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.title-jump {
+    display: block;
+}
+
+.alternative-h2 {
+    font-size: 67px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* End personal Normalizer */
+
+#acercaDe,
+#ubicacion,
+#opiniones,
+#finalForm,
+footer {
+    padding: 30px 0;
+}
+
+.nav-section {
+    background-color: #edffec;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#acercaDe {
+    background-color: #fff9f3;
+}
+
+#ubicacion {
+    background-color: #edffec;
+}
+
+#opiniones {
+    background-color: #ffdcdc;
+}
+
+#finalForm {
+    background-color: #ccf3ee;
+}
+
+footer {
+    background-color: #6a9f91;
+}
+
+.visually-hidden {
+    position: absolute;
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+.right-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.right-nav ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+header {
+    background-image: url(/imagen-sakura.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+a {
+    color: #6a9f91;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: #e63440;
+}
+
+/* Countdown */
+
+.countdown {
+    background-color: #f3dcea;
+    display: flex;
+    width: 460px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: 40px;
+    align-self: end;
+}
+
+.counter {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    font-size: 43px;
+}
+
+.countdown h2 {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.ctd-unity {
+    display: flex;
+    margin: 0 10px 0 0;
+    align-items: center;
+}
+
+.last-unity {
+    margin-right: 0;
+}
+
+.ctd-number {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 7px;
+    font-weight: 300;
+    margin-right: 10px;
+    padding: 0 5px 0 5px;
+}
+
+.ctd-name {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+/* Main form */
+
+.main-form {
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #fff;
+    align-self: center;
+    width: 550px;
+}
+
+.line-decorator {
+    padding: 20px;
+    border: 2px solid #e4bad4;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-block {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.text-block p {
+    line-height: 32px;
+}
+
+.form-title {
+    font-family: "Playfair Display", serif;
+    font-style: unset;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.form-inputs label {
+    margin-bottom: 0.5em;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #959595;
+    padding-bottom: 5px;
+    margin-bottom: 1em;
+}
+
+input[type="submit"] {
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #ccf3ee;
+    padding: 10px 0 15px 0;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #9ec9be;
+    color: black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+input[type="submit"]:active {
+    background-color: #6a9f91;
+    color: white;
+}
+
+/*Seccion About*/
+
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-primavera,
+.titulo-opinion,
+.titulo-ubicacion {
+    margin-bottom: 30px;
+}
+
+.titulo-primavera h2,
+.titulo-primavera h3 {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #6a9f91;
+}
+
+.titulo-primavera h2 {
+    font-family: -apple-system-ui-serif, ui-serif, "Georgia", serif;
+}
+
+.titulo-primavera h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    font-size: 50px;
+}
+
+.cards-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card-redonda {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 370px;
+    border-radius: 20px;
+}
+
+.card-redonda:not(.pelucas) {
+    margin-right: 20px;
+}
+
+.card-innerline {
+    border-radius: 0 0 15px 15px;
+    border-right: 2px solid #e4bad4;
+    border-bottom: 2px solid #e4bad4;
+    border-left: 2px solid #e4bad4;
+    margin: 0 20px 20px 20px;
+    padding: 15px 15px 10px 15px;
+    text-align: center;
+}
+
+.card-innerline p {
+    line-height: 28px;
+}
+
+.card-redonda img {
+    border-radius: 15px 15px 0 0;
+}
+
+/* Seccion ubicacion */
+.ubicacion-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-ubicacion {
+    text-align: center;
+    font-family: -apple-system-ui-serif, ui-serif, "Georgia", serif;
+}
+
+.ubicacion-wrapper > div:first-of-type {
+    width: 540px;
+    background-color: white;
+    border-radius: 45px;
+}
+
+.ubicacion-wrapper > div > p {
+    padding: 20px 30px 25px 30px;
+}
+
+/*Seccion Opiniones*/
+
+.leer-mas-link {
+    display: inline-block;
+}
+
+.opiniones-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-opinion {
+    display: flex;
+    flex-direction: column-reverse;
+    color: #e63440;
+}
+
+.titulo-opinion h3 {
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    font-size: 50px;
+}
+
+.titulo-opinion h2 {
+    font-family: -apple-system-ui-serif, ui-serif, "Georgia", serif;
+    font-size: 36px;
+}
+
+.col-opiniones {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.col-opiniones > div {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-recta {
+    background-color: white;
+    border-radius: 0 0 45px 45px;
+}
+
+.card-recta:first-child {
+    margin-bottom: 30px;
+}
+
+.opiniones-texto {
+    padding: 10px 20px 20px 20px;
+}
+
+.opiniones-texto p {
+    line-height: 34px;
+}
+
+/* Final Form */
+.last-form {
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.last-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal-form {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horizontal-form div {
+    flex-grow: 1;
+}
+
+#finalForm .form-title {
+    font-size: 85px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* Footer */
+
+footer {
+    font-family: "Playfair Display", serif;
+}
+.footer-links {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.footer-links a {
+    font-size: 20px;
+}
+
+.footer-links h3,
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links div:first-child {
+    margin-right: 50px;
+}
+
+.footer-outline {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 35px;
+    padding: 20px;
+}
+
+.footer-outline p {
+    color: white;
+}
+
+.footer-outline > div:first-of-type {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+.footer-outline img {
+    margin-bottom: 10px;
+}
